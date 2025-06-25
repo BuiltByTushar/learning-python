@@ -54,6 +54,3 @@ print("False and False is ", False and False)
 # Not operator 
 # It is simillar to a Print operator and requires ()
 print(not(False))
-
-
-

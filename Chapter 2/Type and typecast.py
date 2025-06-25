@@ -23,7 +23,3 @@ print(b)
 b = float(a)
 
 print(b)
-
-
-
-

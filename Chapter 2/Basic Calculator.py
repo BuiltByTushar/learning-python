@@ -38,8 +38,3 @@ elif (AO == 4):
       print("UNDEFINED")
    else: print("Here Your answer :  ", A/B)
 else: print("Invalid input please Type '1' for Addition, '2' for Subtraction, '3' for Multiplication and '4' for Division")
-
-    
-
-
-

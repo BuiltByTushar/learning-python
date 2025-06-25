@@ -27,4 +27,3 @@ print((int(number_1)+int(number_2))/2)
 print("Square of number")
 y = int(input("Type number"))
 print("Square here:  ->",y**2)
-

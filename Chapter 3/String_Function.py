@@ -14,5 +14,3 @@ z = "Icecream is very very sweet"
 print(z.title())
 print(z.find('very'))
 print(z.replace('sweet','good'))
-
-

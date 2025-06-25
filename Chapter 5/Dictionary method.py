@@ -25,3 +25,11 @@ print(Test_Dic.items())
 
 Test_Dic.clear()  # it will clear our whole dictionary
 print(Test_Dic.items())
+
+Test_Dic.update({"Appple":"Sweet"})
+Test_Dic.update({"Banana":"NotSweet"})
+
+print(Test_Dic)
+last_added = Test_Dic.popitem()
+print(f"Last added key value pair was {last_added}")
+print(Test_Dic)

@@ -49,5 +49,3 @@ dir_list = os.listdir(path)
 print("print files and directories in '", path, "' :")
 # now we print the list
 print(dir_list)
-
-

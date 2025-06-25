@@ -7,5 +7,3 @@ Friend[0] = "Mapple" # unlike strings, list are mutable means we could change th
 print(Friend[0])
 
 print(Friend[1:4])
-
-    

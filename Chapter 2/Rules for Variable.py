@@ -9,4 +9,3 @@ Tushar1 = 100
 # @Tushar = 100 is not valid
 # Tush@r =100 is also not valid
 Tush_r = 100 # is valid
-
