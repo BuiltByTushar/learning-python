@@ -14,7 +14,8 @@ l1.reverse()
 print(l1)
 
 # lets add lol at 4th place in the list
-l1.insert(3 ,"lol")
+# here lol is not an integer hence is not prefered if previous are integers
+l1.insert(3 ,"lol")   # type: ignore
 print(l1)
 
 # lets remove it now

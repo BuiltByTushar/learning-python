@@ -26,8 +26,10 @@ print(Test_Dic.items())
 Test_Dic.clear()  # it will clear our whole dictionary
 print(Test_Dic.items())
 
-Test_Dic.update({"Appple":"Sweet"})
-Test_Dic.update({"Banana":"NotSweet"})
+# As Test_Dic was a copy of a dictionary with {string: int} type format 
+# hence it is recommended to use it again
+Test_Dic.update({"Apple":120})
+Test_Dic.update({"Banana":50})
 
 print(Test_Dic)
 last_added = Test_Dic.popitem()

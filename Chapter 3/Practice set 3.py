@@ -18,7 +18,7 @@ else: print("Good Night \U0001F319", name)
 applicant = input("Please enter your Name:\u2192")
 date = input("Type Today's Date (dd/mm/yy):")
 # Now I am going to convert mm into individual months
-
+month = "none"
 month_code = int(date[3:5])
 if ( month_code == 12 ):
     month = "January"
