@@ -121,4 +121,3 @@ print(dic.items())
 # no as list are not hashable 
 S = {8, 7, 12, "Harry, (1,2)"}
 # We used tuple insted
-
