@@ -23,3 +23,8 @@ while x <=5:
     print("*"*x)
     x += 1
 
+# OR
+
+for x in range(1,6):
+    print("*"*x)
+
