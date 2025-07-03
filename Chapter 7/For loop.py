@@ -38,3 +38,16 @@ for x in name:
 else:
     print("Done")
 
+for x in range(80):
+    print(x)
+    if x == 3:
+        break
+else:
+    print("complete")   # here due to break operator for statement never exausted
+
+for x in range(4):
+    print(f"Printing {x}")
+    if x == 2:
+        continue      # It skip print(x) iteration for x = 2
+    print(x)
+

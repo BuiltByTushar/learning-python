@@ -1,5 +1,7 @@
-post = input("Summit your post here:  ")
+factorial = int(input("Factorial of: "))
+answer = 1
 
-if "Harry" in post:
-    print("Harry is mentioned")
-else: print("No Harry")
+for x in range(0,factorial):
+    answer = (factorial-x)*answer 
+else: print(answer)
+
