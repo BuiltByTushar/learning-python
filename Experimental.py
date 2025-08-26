@@ -29,3 +29,24 @@ print(table_set)
 
 for x in range(1,11):
     print((11-x)*table)
+
+
+n = int(input())
+if (1<=n<=100):
+    odd = set()
+    even = set()
+    for i in range(1,100,2):
+        odd.add(i)
+        even.add(i+1)
+    print(odd)
+    print(even)
+    if (n in odd):
+        print("Weird")
+    if (n in even):
+        if (2<=n<=5):
+            print("Not Weird")
+        if (6<=n<=20):
+            print("Weird")
+        else:
+            print("Not Weird")        
+                
